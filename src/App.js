@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import img from './cover.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="cover">
+   
+       <img className="imgpic" src={img} alt="cover"></img>
+    
+  <div className="login">
+   
+            <p>Welcome to Cloudcast</p>
+            <h1>Log in</h1>
+            <p>Enter your username or email address</p>
+            <input type="text" name="email"  placeholder="alison@cloudcast.com"></input>
+            <p>Enter your Password</p>
+            <input type="password" name="password" placeholder="**********" ></input>
+            <div>
+            <button type="button" class="button1">Forgot Password</button>
+            </div>
+            <button type="button" class="button">Log in</button>
+        </div>
+        
+        </div>
   );
 }
 
