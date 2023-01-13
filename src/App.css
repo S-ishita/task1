@@ -27,7 +27,7 @@
   
 }
 .wrapper {
-  width: 100%;
+  width: 96%;
   outline: none;
   border-radius: 8px;
   border: 2px solid #dddfe2;
@@ -35,7 +35,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  
+  padding-left: 0.5rem;
   
 }
 .wrapper > input {
@@ -51,10 +51,10 @@
   
 }
 
-.login >span {
+.wrapper >span {
   cursor: pointer;
- 
-  transform: translate(0,-50%);
+  padding-right: 0.5rem;
+  
 }
 
 .button{
